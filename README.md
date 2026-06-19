@@ -7,18 +7,6 @@ A production-ready end-to-end **Drug Launch Intelligence Platform** for oncology
 
 ## 🚀 Live Deployment on Streamlit Cloud
 
-### Step 1 — Upload to GitHub
-1. Create a new **public** GitHub repository (e.g. `pharma-launch-intelligence`)
-2. Upload the contents of this ZIP (all files including hidden `.streamlit/` folder)
-3. Ensure your repo root contains `app.py` and `requirements.txt`
-
-### Step 2 — Deploy on Streamlit Cloud
-1. Go to [share.streamlit.io](https://share.streamlit.io)
-2. Click **New App**
-3. Connect your GitHub repo
-4. Set **Main file path** to: `app.py`
-5. Click **Deploy** — live in ~2 minutes
-
 ---
 
 ## 📦 Project Structure
@@ -85,7 +73,7 @@ streamlit run app.py
 - **Visualization**: Plotly 5.18+
 - **Data**: Pandas + NumPy
 - **Deployment**: Streamlit Community Cloud (free)
-- **Theme**: Light clinical (white/blue)
+
 
 ---
 
